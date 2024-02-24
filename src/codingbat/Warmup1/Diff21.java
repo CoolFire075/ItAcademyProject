@@ -11,11 +11,10 @@ public class Diff21 {
     }
 
     public static int diff21(int n) {
-        if (n > 21) {
-            n = (n - 21) * 2;
-        } else n = n - 21;
-        Math.abs(n);
-
-        return n;
+        if (n <= 21) {
+            return 21 - n;
+        } else {
+            return (n - 21) * 2;
+        }
     }
 }

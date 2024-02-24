@@ -13,7 +13,6 @@ public class Makes10 {
         System.out.println(isNumberEqually10);
     }
     public static boolean makes10(int a, int b) {
-        if (a = 10 || b = 10 )
-            return
+        return (a == 10 || b == 10 || a + b == 10);
     }
 }
