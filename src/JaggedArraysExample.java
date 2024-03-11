@@ -8,6 +8,6 @@ public class JaggedArraysExample {
         array [2] = new int[5];
         array [3] = new int[1];
         array [4] = new int[1];
-
+        System.out.println(array[2][1]);
     }
 }
