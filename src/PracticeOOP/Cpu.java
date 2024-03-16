@@ -34,4 +34,9 @@ public class Cpu {
     public double getFrequency() {
         return frequency;
     }
+
+//    @Override
+//    public String toString() {
+//
+//    }
 }
