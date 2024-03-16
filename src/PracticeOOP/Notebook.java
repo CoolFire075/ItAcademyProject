@@ -70,5 +70,6 @@ public class Notebook {
                 + ("Hdd: " + Arrays.toString(hddArray));
 
         return message;
+
     }
 }
